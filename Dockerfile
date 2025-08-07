@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17
-COPY target/github_jenkins_docker.jar github_jenkins_docker.jar
-CMD ["java", "-jar", "github_jenkins_docker.jar"]
+COPY target/github-jenkins-docker-1.0.0.jar github-jenkins-docker-1.0.0.jar
+CMD ["java", "-jar", "github-jenkins-docker-1.0.0.jar"]
